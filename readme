@@ -6,8 +6,8 @@
 - 实现tensorflow实现人脸图像超分辨率的SDK
 
 
-![image](imgs/ori.jpg)
-![image](imgs/output.jpg)
+![image](http://github.com/smuelpeng/tensorflow_cpp_sdk_tutorial/raw/master/imgs/ori.jpg)
+![image](http://github.com/smuelpeng/tensorflow_cpp_sdk_tutorial/raw/master/imgs/output.jpg)
 
 ## 总体思路
 
