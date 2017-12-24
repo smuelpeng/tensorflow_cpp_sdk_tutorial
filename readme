@@ -6,8 +6,8 @@
 - 实现tensorflow实现人脸图像超分辨率的SDK
 
 
-![](imgs/ori.jpg)
-![](imgs/output.jpg)
+![image](imgs/ori.jpg)
+![image](imgs/output.jpg)
 
 ## 总体思路
 
