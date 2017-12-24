@@ -1,0 +1,17 @@
+# tensorflow_cpp_sdk_tutorial
+总结高效使用tensorlow SDK的方式
+
+## 主要功能
+- 收集了使用tensorflow读取和写出图片的函数
+- 实现tensorflow实现人脸图像超分辨率的SDK
+
+
+![](imgs/ori.jpg)
+![](imgs/output.jpg)
+
+## 总体思路
+
+## 使用方法
+
+### 编译
+
