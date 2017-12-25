@@ -5,14 +5,11 @@
 ## 主要功能
 
 - 收集了使用tensorflow读取和写出图片的函数
-- 实现tensorflow实现人脸图像超分辨率的SDK
+- 实现tensorflow人脸图像超分辨率的SDK
 
 
-![image](http://github.com/smuelpeng/tensorflow_cpp_sdk_tutorial/raw/master/imgs/ori.jpg)
-![image](http://github.com/smuelpeng/tensorflow_cpp_sdk_tutorial/raw/master/imgs/output.jpg)
-
-## 总体思路
-
+![](http://github.com/smuelpeng/tensorflow_cpp_sdk_tutorial/raw/master/imgs/ori.jpg)
+![](http://github.com/smuelpeng/tensorflow_cpp_sdk_tutorial/raw/master/imgs/output.jpg)
 
 ## 编译和使用方法
 
@@ -32,3 +29,6 @@ bazel build -c dbg --copt="-fPIC"  //tensorflow/cc/faceall:test_faceall
 
 在运行test_faceall前需要将模型和图片放到相应目录
 
+## Todo
+解决handle预先初始化不能运行的问题
+解决位置无关的运行环境的问题
