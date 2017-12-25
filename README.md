@@ -18,7 +18,7 @@
 
 git clone https://github.com/tensorflow/tensorflow.git --recursive
 
-将faceall文件夹复制到tensorflow/tensorflow/cc/目录下，改名为faceall，在tensorflow目录下分别运行
+将faceall文件夹复制到tensorflow/tensorflow/cc/目录下，改名为faceall，分别运行
 
 cd tensorflow/
 
