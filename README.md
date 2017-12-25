@@ -7,7 +7,6 @@
 - 收集了使用tensorflow读取和写出图片的函数
 - 实现tensorflow人脸图像超分辨率的SDK
 
-
 ![](http://github.com/smuelpeng/tensorflow_cpp_sdk_tutorial/raw/master/imgs/ori.jpg)
 ![](http://github.com/smuelpeng/tensorflow_cpp_sdk_tutorial/raw/master/imgs/output.jpg)
 
@@ -19,7 +18,9 @@
 
 git clone https://github.com/tensorflow/tensorflow.git --recursive
 
-将sdk复制到tensorflow/cc/目录下，改名为faceall，分别运行
+将faceall文件夹复制到tensorflow/tensorflow/cc/目录下，改名为faceall，在tensorflow目录下分别运行
+
+cd tensorflow/
 
 bazel build -c dbg --copt="-fPIC"  //tensorflow/cc/faceall:faceall
 
@@ -28,6 +29,8 @@ bazel build -c dbg --copt="-fPIC"  //tensorflow/cc/faceall:test_faceall
 在 bazel/bin目录下tensorflow/cc/faceall目录下即可生成动态库和测试的test_faceall文件
 
 在运行test_faceall前需要将模型和图片放到相应目录
+
+cp imgs/ori.jpg model/nn.pb tensorflow/
 
 ## Todo
 解决handle预先初始化不能运行的问题
