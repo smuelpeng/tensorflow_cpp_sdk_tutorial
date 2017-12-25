@@ -32,3 +32,17 @@ bazel build -c dbg --copt="-fPIC"  //tensorflow/cc/faceall:test_faceall
 ## Todo
 解决handle预先初始化不能运行的问题
 解决位置无关的运行环境的问题
+
+##参考链接
+读图片：
+https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/label_image/main.cc
+https://github.com/tensorflow/models/issues/1741
+
+存图片：
+https://www.jianshu.com/p/b6f9451716ed?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation
+
+模型转换：
+http://blog.csdn.net/rockingdingo/article/details/75452711
+
+bazel使用：
+bazel help和各种网址都可以
