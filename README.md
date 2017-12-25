@@ -51,3 +51,6 @@ https://www.jianshu.com/p/b6f9451716ed?utm_campaign=maleskine&utm_content=note&u
 http://blog.csdn.net/rockingdingo/article/details/75452711
 
 bazel使用：bazel help 以及google各种网址都可以
+
+模型位置：
+https://drive.google.com/open?id=1hnyfZTAjq149e7dJKubwD9zeMjKeczD8
